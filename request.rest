@@ -1,0 +1,17 @@
+GET http://10.0.0.103:8000/users
+###
+POST http://10.0.0.103:8000/users
+Content-Type: application/json
+{
+   "username": "swallowedAbee",
+   "password": "yomother",
+   "email": "yyyy"
+}
+###
+POST http://localhost:8000/users/login
+Content-Type: application/json
+{
+   "username": "swallowedAbe",
+   "password": "yomother",
+   "email": "yyyy"
+}
